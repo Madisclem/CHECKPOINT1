@@ -1,0 +1,38 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+/*style barre de navigation*/
+header  {
+    height: 60px;
+    background-color: #325871 ;
+}
+.nav-bar    {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    float: right;
+}
+.nav-bar a{
+    color: aliceblue;
+}
+.nav-bar a:hover{
+    background-color: #4F92B3;
+    padding: 20px;
+}
+
+/*Style About me section*/
+h1  {
+    font-size: 50px;
+    color: #E39FA9;
+    padding: 200px,200px,300;
+}
+.about  {
+    display: inline-block;
+}
