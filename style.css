@@ -11,14 +11,14 @@
 header {
   height: 60px;
   background-color: #325871;
-}
-.nav-bar {
-  padding: 20px;
-  text-align: center;
-  float: right;
-}
-.nav-bar a {
-  color: aliceblue;
+  li{
+    padding: 20px;
+    text-align: center;
+    float: right;
+      a{
+        color: aliceblue;  
+    }  
+  }
 }
 .nav-bar a:hover {
   background-color: #4f92b3;
