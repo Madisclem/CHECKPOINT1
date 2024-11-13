@@ -3,21 +3,23 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
-  list-style-type: none;
-  text-decoration: none;
 }
 
 /*style barre de navigation*/
 header {
   height: 60px;
   background-color: #325871;
-  li{
-    padding: 20px;
-    text-align: center;
-    float: right;
-      a{
-        color: aliceblue;  
-    }  
+  ul {
+    display: flex;
+    li{
+      padding: 20px;
+      text-align: center;
+      list-style-type: none;
+        a{
+          color: aliceblue;
+          text-decoration: none;  
+     }  
+    }
   }
 }
 .nav-bar a:hover {
